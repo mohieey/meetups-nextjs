@@ -51,6 +51,7 @@ export async function getStaticProps() {
         image: result.image,
       })),
     },
+    revalidate: 1,
   };
 }
 
